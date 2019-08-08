@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
-import componentParser from '../Utilities/componentParser.jsx';
+
+import componentParser from '../../Utilities/componentParser.jsx';
 
 const NavbarDropdown = (props) => {
     return componentParser(props.navbarDropdownData);

@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
-import componentParser from '../Utilities/componentParser.jsx';
+
+import componentParser from '../../Utilities/componentParser.jsx';
 
 const NavbarToggler = (props) => {
     return componentParser(props.navbarTogglerData);
