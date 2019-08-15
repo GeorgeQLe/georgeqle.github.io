@@ -1,0 +1,331 @@
+[
+    {
+        "componentID": "TopPageNavbar",
+        "componentType": "Navbar",
+        "componentContainers": [
+            {
+                "containerType": "nav",
+                "containerAttributes": {
+                    "className": "navbar navbar-expand-lg navbar-light",
+                    "style": {
+                        "backgroundColor": "powderblue"
+                    }
+                }
+            }
+        ],
+        "componentContents": [
+            {   
+                "componentType": "NavbarBrand",
+                "componentContainers": [
+                    {
+                        "containerType": "a",
+                        "containerAttributes": {
+                            "className": "navbar-brand",
+                            "href": "#"
+                        },
+                        "containerContents": [
+                            {
+                                "containerType": "span"
+                            }
+                        ]
+                    }
+                ],
+                "componentContents": [
+                    {
+                        "itemType": "img",
+                        "itemAttributes": {
+                            "src": "../assets/64x64GLicon.png",
+                            "alt": "GeorgeQLe"
+                        }
+                    }
+                ]
+            },
+            {
+                "componentType": "NavbarToggler",
+                "componentContainers": [
+                    {
+                        "containerType": "button",
+                        "containerAttributes": {
+                            "aria-controls": "navbarSupportedContent",
+                            "aria-expanded": "false",
+                            "aria-label": "Toggle navigation",
+                            "className": "navbar-toggler",
+                            "data-target": "#navbarSupportedContent",
+                            "data-toggle": "collapse",
+                            "type": "button"
+                        }
+                    }
+                ],
+                "componentContents": [
+                    {
+                        "itemType": "span",
+                        "itemAttributes": {
+                            "className": "navbar-toggler-icon"
+                        }
+                    }
+                ]
+            },
+            {
+                "componentType": "NavbarCollapse",
+                "componentContainers": [
+                    {
+                        "containerType": "div",
+                        "containerAttributes": {
+                            "className": "collapse navbar-collapse",
+                            "id": "navbarSupportedContent"
+                        }
+                    }
+                ],
+                "componentContents": [
+                    {
+                        "componentType": "NavbarItems",
+                        "componentContainers": [
+                            {
+                                "containerType": "ul",
+                                "containerAttributes": {
+                                    "className": "navbar-nav mr-auto"
+                                }
+                            }
+                        ],
+                        "componentContents": [
+                            {
+                                "componentType": "NavbarItem",
+                                "componentContainers": [
+                                    {
+                                        "containerType": "li",
+                                        "containerAttributes": {
+                                            "className": "nav-item"
+                                        }
+                                    }
+                                ],
+                                "componentContents": [
+                                    {
+                                        "itemType": "a",
+                                        "itemAttributes": {
+                                            "className": "nav-link",
+                                            "href": "#Home"
+                                        },
+                                        "itemContents": "Home"
+                                    }
+                                ]
+                            },
+                            {
+                                "componentType": "NavbarItem",
+                                "componentContainers": [
+                                    {
+                                        "containerType": "li",
+                                        "containerAttributes": {
+                                            "className": "nav-item dropdown"
+                                        }
+                                    }
+                                ],
+                                "componentContents": [
+                                    {
+                                        "itemType": "a",
+                                        "itemAttributes": {
+                                            "className": "nav-link dropdown-toggle",
+                                            "aria-expanded": "false",
+                                            "aria-haspopup": "true",
+                                            "data-toggle": "dropdown",
+                                            "href": "#",
+                                            "id": "navbarDropdown",
+                                            "role": "button"
+                                        },
+                                        "itemContents": "Companies"
+                                    },
+                                    {
+                                        "componentType": "NavbarDropdown",
+                                        "componentContainers": [
+                                            {
+                                                "containerType": "div",
+                                                "containerAttributes": {
+                                                    "className": "dropdown-menu",
+                                                    "aria-labelledby": "navbarDropdown"
+                                                }
+                                            }
+                                        ],
+                                        "componentContents": [
+                                            {
+                                                "itemType": "a",
+                                                "itemAttributes": {
+                                                    "className": "dropdown-item",
+                                                    "href": "#"
+                                                },
+                                                "itemContents": "Iron Legion"
+                                            },
+                                            {
+                                                "itemType": "a",
+                                                "itemAttributes": {
+                                                    "className": "dropdown-item",
+                                                    "href": "#"
+                                                },
+                                                "itemContents": "ConceptsIO Solutions"
+                                            },
+                                            {
+                                                "itemType": "a",
+                                                "itemAttributes": {
+                                                    "className": "dropdown-item",
+                                                    "href": "#"
+                                                },
+                                                "itemContents": "The Future"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "componentType": "NavbarItem",
+                                "componentContainers": [
+                                    {
+                                        "containerType": "li",
+                                        "containerAttributes": {
+                                            "className": "nav-item dropdown"
+                                        }
+                                    }
+                                ],
+                                "componentContents": [
+                                    {
+                                        "itemType": "a",
+                                        "itemAttributes": {
+                                            "className": "nav-link dropdown-toggle",
+                                            "aria-expanded": "false",
+                                            "aria-haspopup": "true",
+                                            "data-toggle": "dropdown",
+                                            "href": "#",
+                                            "id": "navbarDropdown",
+                                            "role": "button"
+                                        },
+                                        "itemContents": "Projects"
+                                    },
+                                    {
+                                        "componentType": "NavbarDropdown",
+                                        "componentContainers": [
+                                            {
+                                                "containerType": "div",
+                                                "containerAttributes": {
+                                                    "className": "dropdown-menu",
+                                                    "aria-labelledby": "navbarDropdown"
+                                                }
+                                            }
+                                        ],
+                                        "componentContents": [
+                                            {
+                                                "itemType": "a",
+                                                "itemAttributes": {
+                                                    "className": "dropdown-item",
+                                                    "href": "#"
+                                                },
+                                                "itemContents": "Full Stack Development"
+                                            },
+                                            {
+                                                "itemType": "a",
+                                                "itemAttributes": {
+                                                    "className": "dropdown-item",
+                                                    "href": "#"
+                                                },
+                                                "itemContents": "AI/ML Projects"
+                                            },
+                                            {
+                                                "itemType": "a",
+                                                "itemAttributes": {
+                                                    "className": "dropdown-item",
+                                                    "href": "#"
+                                                },
+                                                "itemContents": "What am I working on?"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "componentType": "NavbarItem",
+                                "componentContainers": [
+                                    {
+                                        "containerType": "li",
+                                        "containerAttributes": {
+                                            "className": "nav-item dropdown"
+                                        }
+                                    }
+                                ],
+                                "componentContents": [
+                                    {
+                                        "itemType": "a",
+                                        "itemAttributes": {
+                                            "className": "nav-link dropdown-toggle",
+                                            "aria-expanded": "false",
+                                            "aria-haspopup": "true",
+                                            "data-toggle": "dropdown",
+                                            "href": "#",
+                                            "id": "navbarDropdown",
+                                            "role": "button"
+                                        },
+                                        "itemContents": "Personal"
+                                    },
+                                    {
+                                        "componentType": "NavbarDropdown",
+                                        "componentContainers": [
+                                            {
+                                                "containerType": "div",
+                                                "containerAttributes": {
+                                                    "className": "dropdown-menu",
+                                                    "aria-labelledby": "navbarDropdown"
+                                                }
+                                            }
+                                        ],
+                                        "componentContents": [
+                                            {
+                                                "itemType": "a",
+                                                "itemAttributes": {
+                                                    "className": "dropdown-item",
+                                                    "href": "#"
+                                                },
+                                                "itemContents": "Hobbies"
+                                            },
+                                            {
+                                                "itemType": "a",
+                                                "itemAttributes": {
+                                                    "className": "dropdown-item",
+                                                    "href": "#"
+                                                },
+                                                "itemContents": "My Story"
+                                            },
+                                            {
+                                                "itemType": "a",
+                                                "itemAttributes": {
+                                                    "className": "dropdown-item",
+                                                    "href": "#"
+                                                },
+                                                "itemContents": "How to Follow My Journey"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "componentType": "NavbarItem",
+                                "componentContainers": [
+                                    {
+                                        "containerType": "li",
+                                        "containerAttributes": {
+                                            "className": "nav-item"
+                                        }
+                                    }
+                                ],
+                                "componentContents": [
+                                    {
+                                        "itemType": "a",
+                                        "itemAttributes": {
+                                            "className": "nav-link",
+                                            "href": "#ContactMe"
+                                        },
+                                        "itemContents": "Contact Me"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

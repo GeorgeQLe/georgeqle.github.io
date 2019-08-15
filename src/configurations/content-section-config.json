@@ -1,0 +1,241 @@
+[
+    {
+        "componentID": "HeaderContentSection",
+        "componentType": "ContentSection",
+        "componentContainers": [
+            {
+                "containerType" : "div"
+            }
+        ],
+        "componentContents": [
+            {
+                "componentID": "TopPageNavbar",
+                "componentType": "Navbar",
+                "componentJsonUrl": "../src/configurations/navbar-config.json"
+            }
+        ]
+    },
+    {
+        "componentID": "CardRowsContentSection",
+        "componentType": "ContentSection",
+        "componentContainers": [
+            {
+                "containerType": "div",
+                "containerAttributes": {
+                    "className": "container-fluid"
+                }
+            }
+        ],
+        "componentContents": [
+            {
+                "itemType": "br"
+            },
+            {
+                "componentID": "FirstHeaderRow",
+                "componentType": "ContentRow",
+                "componentContainers": [
+                    {
+                        "containerType": "div",
+                        "containerAttributes": {
+                            "className": "row"
+                        }
+                    }
+                ],
+                "componentContents": [
+                    
+                ]
+            },
+            {
+                "componentID": "FirstCardDeck",
+                "componentType": "CardDeck",
+                "componentContainers": [
+                    {
+                        "containerType": "div",
+                        "containerAttributes": {
+                            "className": "card-deck"
+                        }
+                    }
+                ],
+                "componentContents": [
+                    {
+                        "componentID": "CiOSCard",
+                        "componentType": "Card",
+                        "componentJsonUrl": "../src/configurations/card-config.json"
+                    },
+                    {
+                        "componentID": "IronLegionCard",
+                        "componentType": "Card",
+                        "componentJsonUrl": "../src/configurations/card-config.json"
+                    },
+                    {
+                        "componentID": "TheFutureCard",
+                        "componentType": "Card",
+                        "componentJsonUrl": "../src/configurations/card-config.json"
+                    }
+                ]
+            },
+            {
+                "itemType": "br"
+            },
+            {
+                "componentID": "SecondCardDeck",
+                "componentType": "CardDeck",
+                "componentContainers": [
+                    {
+                        "containerType": "div",
+                        "containerAttributes": {
+                            "className": "card-deck"
+                        }
+                    }
+                ],
+                "componentContents": [
+                    {
+                        "componentID": "FullStackCard",
+                        "componentType": "Card",
+                        "componentJsonUrl": "../src/configurations/card-config.json"
+                    },
+                    {
+                        "componentID": "AIandMLCard",
+                        "componentType": "Card",
+                        "componentJsonUrl": "../src/configurations/card-config.json"
+                    },
+                    {
+                        "componentID": "CurrentProjectsCard",
+                        "componentType": "Card",
+                        "componentJsonUrl": "../src/configurations/card-config.json"
+                    }
+                ]
+            },
+            {
+                "itemType": "br"
+            },
+            {
+                "componentID": "ThirdCardDeck",
+                "componentType": "CardDeck",
+                "componentContainers": [
+                    {   
+                        "containerType": "div",
+                        "containerAttributes": {
+                            "className": "card-deck"
+                        }
+                    }
+                ],
+                "componentContents": [
+                    {
+                        "componentID": "FreeTimeCard",
+                        "componentType": "Card",
+                        "componentJsonUrl": "../src/configurations/card-config.json"
+                    },
+                    {
+                        "componentID": "SACCard",
+                        "componentType": "Card",
+                        "componentJsonUrl": "../src/configurations/card-config.json"
+                    },
+                    {
+                        "componentID": "FollowMeCard",
+                        "componentType": "Card",
+                        "componentJsonUrl": "../src/configurations/card-config.json"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "componentID": "FooterContentSection",
+        "componentType": "ContentSection",
+        "componentContainers": [
+            {
+                "containerType": "footer",
+                "containerAttributes": {
+                    "style": {
+                        "bottom": "0",
+                        "display": "contents",
+                        "position": "absolute",
+                        "width": "100%"
+                    }
+                },
+                "containerContents": [
+                    {
+                        "containerType": "div",
+                        "containerAttributes": {                            
+                            "background-color": "lightgrey",
+                            "className": "container-fluid"
+                        },
+                        "containerContents": [
+                            {
+                                "containerType": "div",
+                                "containerAttributes": {
+                                    "id": "ContactMe"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "componentContents": [
+            {
+                "itemType": "br"
+            },
+            {
+                "itemType": "h2",
+                "itemContents": "Contact Me"
+            },
+            {
+                "itemType": "br"
+            },
+            {
+                "itemType": "p",
+                "itemContents": [
+                    "Feel free to shoot me an email:",
+                    {
+                        "itemType": "br"
+                    },
+                    {
+                        "itemType": "a",
+                        "itemAttributes": {
+                            "href": "mailto:legeorge4@gmail.com"
+                        },
+                        "itemContents": "legeorge4@gmail.com (Personal)"
+                    },
+                    {
+                        "itemType": "br"
+                    },
+                    {
+                        "itemType": "a",
+                        "itemAttributes": {
+                            "href": "mailto:george.le@conceptsio.com"
+                        },
+                        "itemContents": "george.le@conceptsio.com (Work - CiOS)"
+                    }
+                ]
+            },
+            {
+                "itemType": "br"
+            },
+            {
+                "itemType": "p",
+                "itemContents": "The Meaning of Life? : 42"
+            },
+            {
+                "itemType": "p",
+                "itemContents": [
+                    "Constructed by the masterful devs at ",
+                    {
+                        "itemType": "span",
+                        "itemContents": [
+                            {
+                                "itemType": "a",
+                                "itemAttributes": {
+                                    "href": "conceptsio.com"
+                                },
+                                "itemContents": "ConceptsIO Solutions"
+                            }
+                        ]
+                    },
+                    ", a George Le owned company."
+                ]
+            }
+        ]
+    }
+]

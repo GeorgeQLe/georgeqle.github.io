@@ -1,0 +1,519 @@
+[
+    {
+        "componentID": "CiOSCard",
+        "componentType": "Card",
+        "componentContainers": [
+            {
+                "containerType": "div",
+                "containerAttributes": {
+                    "className": "card",
+                    "style": {
+                        "backgroundColor": "navy"
+                    }
+                }, 
+                "containerContents": [
+                    {
+                        "containerType": "div",
+                        "containerAttributes": {
+                            "className": "card-body",
+                            "style": {
+                                "color": "white",
+                                "textAlign": "center"
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "componentContents": [
+            {
+                "itemType": "img",
+                "itemAttributes": {
+                    "className": "img-fluid",
+                    "src": "../assets/CiOSLogo.png",
+                    "alt": "CiOS logo"
+                }
+            },
+            {
+                "itemType": "h2",
+                "itemAttributes": {
+                    "className": "card-title"
+                },
+                "itemContents": [
+                    {
+                        "itemType": "span",
+                        "itemContents": [
+                            {
+                                "itemType": "a",
+                                "itemAttributes": {
+                                    "href": "https:/conceptsio.com",
+                                    "rel": "noopener noreferrer",
+                                    "target": "_blank"
+                                },
+                                "itemContents": "ConceptsIO Solutions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "itemType": "p",
+                "itemAttributes": {
+                    "className": "card-text"
+                },
+                "itemContents": "CiOS is a full-service web development and digital marketing agency."
+            },
+            {
+                "itemType": "br"
+            },
+            {
+                "itemType": "button",
+                "itemAttributes": {
+                    "className": "btn btn-primary"
+                },
+                "itemContents": "More Info"
+            }
+        ]
+    },
+    {
+        "componentID": "IronLegionCard",
+        "componentType": "Card",
+        "componentContainers": [
+            {
+                "containerType": "div",
+                "containerAttributes": {
+                    "className": "card",
+                    "style": {
+                        "backgroundColor": "lightcyan"
+                    }
+                }, 
+                "containerContents": [
+                    {
+                        "containerType": "div",
+                        "containerAttributes": {
+                            "className": "card-body",
+                            "style": {
+                                "color": "black",
+                                "textAlign": "center"
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "componentContents": [
+            {
+                "itemType": "img",
+                "itemAttributes": {
+                    "className": "img-fluid",
+                    "src": "../assets/ILlogo.png",
+                    "alt": "Iron Legion Logo"
+                }
+            },
+            {
+                "itemType": "h2",
+                "itemAttributes": {
+                    "className": "card-title"
+                },
+                "itemContents": "Iron Legion Inc."
+            },
+            {
+                "itemType": "p",
+                "itemAttributes": {
+                    "className": "well"
+                },
+                "itemContents": "Iron Legion was a consulting firm dedicated to helping first responders purchase and operate commercial drone systems."
+            },
+            {
+                "itemType": "br"
+            },
+            {
+                "itemType": "button",
+                "itemAttributes": {
+                    "className": "btn btn-danger"
+                },
+                "itemContents": "More Info"
+            }
+        ]
+    },
+    {
+        "componentID": "TheFutureCard",
+        "componentType": "Card",
+        "componentContainers": [
+            {
+                "containerType": "div",
+                "containerAttributes": {
+                    "className": "card",
+                    "style": {
+                        "backgroundColor": "goldenrod"
+                    }
+                }, 
+                "containerContents": [
+                    {
+                        "containerType": "div",
+                        "containerAttributes": {
+                            "className": "card-body",
+                            "style": {
+                                "color": "white",
+                                "textAlign": "center"
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "componentContents": [
+            {
+                "itemType": "img",
+                "itemAttributes": {
+                    "className": "img-fluid",
+                    "src": "../assets/crystalball.png"
+                }
+            },
+            {
+                "itemType": "h2",
+                "itemAttributes": {
+                    "className": "card-title"
+                },
+                "itemContents": "What is in my future?"
+            },
+            {
+                "itemType": "p",
+                "itemContents": "There's no telling what the future may hold for me. Click the button below to find out what I'd work on if I had my way."
+            },
+            {
+                "itemType": "br"
+            },
+            {
+                "itemType": "button",
+                "itemAttributes": {
+                    "className": "btn btn-warning"
+                },
+                "itemContents": "More Info"
+            }
+        ]
+    },
+    {
+        "componentID": "FullStackCard",
+        "componentType": "Card",
+        "componentContainers": [
+            {
+                "containerType": "div",
+                "containerAttributes": {
+                    "className": "card",
+                    "style": {
+                        "backgroundColor": "lightseagreen"
+                    }
+                }, 
+                "containerContents": [
+                    {
+                        "containerType": "div",
+                        "containerAttributes": {
+                            "className": "card-body",
+                            "style": {
+                                "color": "white",
+                                "textAlign": "center"
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "componentContents": [
+            {
+                "itemType": "h2",
+                "itemContents": "Full Stack Projects"
+            },
+            {
+                "itemType": "img",
+                "itemAttributes": {
+                    "src": ""
+                }
+            },
+            {
+                "itemType": "p",
+                "itemAttributes": {
+
+                },
+                "itemContents": ""
+            },
+            {
+                "itemType": "button",
+                "itemAttributes": {
+                    "className": "btn btn-primary"
+                },
+                "itemContents": "More Info"
+            }
+        ]
+    },
+    {
+        "componentID": "AIandMLCard",
+        "componentType": "Card",
+        "componentContainers": [
+            {
+                "containerType": "div",
+                "containerAttributes": {
+                    "className": "card",
+                    "style": {
+                        "backgroundColor": "forestgreen"
+                    }
+                }, 
+                "containerContents": [
+                    {
+                        "containerType": "div",
+                        "containerAttributes": {
+                            "className": "card-body",
+                            "style": {
+                                "color": "white",
+                                "textAlign": "center"
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "componentContents": [
+            {
+                "itemType": "h2",
+                "itemContents": "AI/ML Projects"
+            },
+            {
+                "itemType": "img",
+                "itemAttributes": {
+                    "className": "",
+                    "src": ""
+                }
+            },
+            {
+                "itemType": "p",
+                "itemAttributes": {
+
+                },
+                "itemContents": ""
+            },
+            {
+                "itemType": "button",
+                "itemAttributes": {
+                    "className": "btn btn-success"
+                },
+                "itemContents": "More Info"
+            }
+        ]
+    },
+    {
+        "componentID": "CurrentProjectsCard",
+        "componentType": "Card",
+        "componentContainers": [
+            {
+                "containerType": "div",
+                "containerAttributes": {
+                    "className": "card",
+                    "style": {
+                        "backgroundColor": "darkslategrey"
+                    }
+                }, 
+                "containerContents": [
+                    {
+                        "containerType": "div",
+                        "containerAttributes": {
+                            "className": "card-body",
+                            "style": {
+                                "color": "white",
+                                "textAlign": "center"
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "componentContents": [
+            {
+                "itemType": "h2",
+                "itemContents": "Full List of Current Projects"
+            },
+            {
+                "itemType": "img",
+                "itemAttributes": {
+                    "className": "",
+                    "src": ""
+                }
+            },
+            {
+                "itemType": "p",
+                "itemAttributes": {
+
+                },
+                "itemContents": ""
+            },
+            {
+                "itemType": "button",
+                "itemAttributes": {
+                    "className": "btn btn-info"
+                },
+                "itemContents": "More Info"
+            }
+        ]
+    },
+    {
+        "componentID": "FreeTimeCard",
+        "componentType": "Card",
+        "componentContainers": [
+            {
+                "containerType": "div",
+                "containerAttributes": {
+                    "className": "card",
+                    "style": {
+                        "backgroundColor": "cornsilk"
+                    }
+                }, 
+                "containerContents": [
+                    {
+                        "containerType": "div",
+                        "containerAttributes": {
+                            "className": "card-body",
+                            "style": {
+                                "color": "black",
+                                "textAlign": "center"
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "componentContents": [
+            {
+                "itemType": "h2",
+                "itemContents": "Free-time"
+            },
+            {
+                "itemType": "img",
+                "itemAttributes": {
+                    "className": "",
+                    "src": ""
+                }
+            },
+            {
+                "itemType": "p",
+                "itemAttributes": {
+
+                },
+                "itemContents": ""
+            },
+            {
+                "itemType": "button",
+                "itemAttributes": {
+                    "className": "btn btn-warning"
+                },
+                "itemContents": "More Info"
+            }
+        ]
+    },
+    {
+        "componentID": "SACCard",
+        "componentType": "Card",
+        "componentContainers": [
+            {
+                "containerType": "div",
+                "containerAttributes": {
+                    "className": "card",
+                    "style": {
+                        "backgroundColor": "steelblue"
+                    }
+                }, 
+                "containerContents": [
+                    {
+                        "containerType": "div",
+                        "containerAttributes": {
+                            "className": "card-body",
+                            "style": {
+                                "color": "white",
+                                "textAlign": "center"
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "componentContents": [
+            {
+                "itemType": "h2",
+                "itemContents": "My Story"
+            },
+            {
+                "itemType": "img",
+                "itemAttributes": {
+                    "className": "",
+                    "src": ""
+                }
+            },
+            {
+                "itemType": "p",
+                "itemAttributes": {
+
+                },
+                "itemContents": ""
+            },
+            {
+                "itemType": "button",
+                "itemAttributes": {
+                    "className": "btn btn-primary"
+                },
+                "itemContents": "More Info"
+            }
+        ]
+    },
+    {
+        "componentID": "FollowMeCard",
+        "componentType": "Card",
+        "componentContainers": [
+            {
+                "containerType": "div",
+                "containerAttributes": {
+                    "className": "card",
+                    "style": {
+                        "backgroundColor": "mediumseagreen"
+                    }
+                }, 
+                "containerContents": [
+                    {
+                        "containerType": "div",
+                        "containerAttributes": {
+                            "className": "card-body",
+                            "style": {
+                                "color": "white",
+                                "textAlign": "center"
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "componentContents": [
+            {
+                "itemType": "h2",
+                "itemContents": "Follow Me on Social"
+            },
+            {
+                "itemType": "img",
+                "itemAttributes": {
+                    "className": "",
+                    "src": ""
+                }
+            },
+            {
+                "itemType": "p",
+                "itemAttributes": {
+
+                },
+                "itemContents": ""
+            },
+            {
+                "itemType": "button",
+                "itemAttributes": {
+                    "className": "btn btn-success"
+                },
+                "itemContents": "More Info"
+            }
+        ]
+    }
+]
