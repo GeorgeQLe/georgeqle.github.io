@@ -1,0 +1,27 @@
+[
+    {
+        "pageID": "MainPage",
+        "pageContainers": [
+            {
+                "containerType": "div"
+            }
+        ],
+        "pageContents": [
+            {
+                "componentID": "HeaderContentSection",
+                "componentType": "ContentSection",
+                "componentJsonUrl": "../src/configurations/content-section-config.json"
+            },
+            {
+                "componentID": "CardRowsContentSection",
+                "componentType": "ContentSection",
+                "componentJsonUrl": "../src/configurations/content-section-config.json"
+            },
+            {
+                "componentID": "FooterContentSection",
+                "componentType": "ContentSection",
+                "componentJsonUrl": "../src/configurations/content-section-config.json"
+            }
+        ]
+    }
+]

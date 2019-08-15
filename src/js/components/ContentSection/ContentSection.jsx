@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 import componentParser from '../../Utilities/componentParser.jsx';
 import Card from '../Card/Card.jsx';
+import CardDeck from '../Card/CardDeck.jsx';
 import Carousel from '../Carousel/Carousel.jsx';
 import ContentRow from './ContentRow.jsx';
 import Footer from '../Footer/Footer.jsx';
@@ -17,6 +18,8 @@ const ContentSection = (props) => {
         switch(potentialSubcomponent.componentType) {
             case "Card":
                 return <Card cardData={ getJsonObjectWithID(potentialSubcomponent.componentJsonUrl, potentialSubcomponent.componentID) } key={ getRandomKeyValue() } />;
+            case "CardDeck":
+                return <CardDeck cardDeckData={ potentialSubcomponent } key={ getRandomKeyValue() } />;
             case "Carousel":
                 return <Carousel carouselData={ getJsonObjectWithID(potentialSubcomponent.componentJsonUrl, potentialSubcomponent.componentID) } key={ getRandomKeyValue() }/>;
             case "ContentRow":    
